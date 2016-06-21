@@ -12,6 +12,8 @@ import java.util.List;
 
 /**
  * Created by fuweimin on 2016/6/21.
+ * 
+ * test
  */
 public class CnWords {
 
@@ -47,8 +49,8 @@ public class CnWords {
 	}
 
 	public static void main(String[] args) throws IOException {
-		List<String> a = parse("商品的  服务");
-		List<String> b = parse("商品服务");
+		List<String> a = parse("鍟嗗搧鐨�  鏈嶅姟");
+		List<String> b = parse("鍟嗗搧鏈嶅姟");
 		System.out.println(a.equals(b));
 	}
 }
